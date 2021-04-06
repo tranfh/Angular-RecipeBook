@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'RecipeBook';
+  currentPage: string = 'recipe';
+
+  onSelectedPage(page: string) {
+    this.currentPage = page;
+  }
 }
