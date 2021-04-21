@@ -6,7 +6,8 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  @Output() selectedPage = new EventEmitter<string>();
+// Enable if below is used 
+  // @Output() selectedPage = new EventEmitter<string>();
 
   page: string;
   collapsed = true;
@@ -17,10 +18,12 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onSelect(selected: string) {
-    this.page = selected;
-    console.log(this.page);
-    this.selectedPage.emit(this.page);
-  }
+  // To enable the onclick navigation
+  // When the button is clicked pass data on which one was clicked 
+  // onSelect(selected: string) {
+  //   this.page = selected;
+  //   console.log(this.page);
+  //   this.selectedPage.emit(this.page);
+  // }
 
 }

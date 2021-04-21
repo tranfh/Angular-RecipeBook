@@ -1,15 +1,18 @@
 <div class="row">
     <div class="col-md-5">
-        <app-recipe-list
-        (recipeWasSelected)="selectedRecipe = $event"></app-recipe-list>
+        <app-recipe-list></app-recipe-list>
     </div>
     <div class="col-md-7">
-        <app-recipe-detail
+        <!-- subscribed for selected recipe will send that info once reciped else template -->
+        <!-- send selectedRecipe to recipe-detail -->
+        <!--  <app-recipe-detail
         *ngIf="selectedRecipe; else infoText"
         [recipe]="selectedRecipe">
     </app-recipe-detail>
-        <ng-template #infoText>
+       <ng-template #infoText>
             <p>Please Select a Recipe!</p>
-        </ng-template>
+        </ng-template> -->
+        <!-- Above has been replaced to render the child router component  -->
+        <router-outlet></router-outlet>
     </div>
 </div>
