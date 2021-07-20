@@ -28,13 +28,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Sample Site
 Home Page
-![HomePage](../blob/main/screenshots/HomePage.png?raw=true)
+![HomePage](https://github.com/tranfh/Angular-RecipeBook/blob/main/screenshots/HomePage.png?raw=true)
 
 Select Recipe
-![SelectRecipe](..blob/main/screenshots/SelectRecipe.png?raw=true)
+![SelectRecipe](https://github.com/tranfh/Angular-RecipeBook/blob/main/screenshots/SelectRecipe.png?raw=true)
 
 Add Recipe
-![AddRecipe](..blob/main/screenshots/AddRecipe.png?raw=true)
+![AddRecipe](https://github.com/tranfh/Angular-RecipeBook/blob/main/screenshots/AddRecipe.png?raw=true)
 
 Shopping List
-![ShoppingList](..blob/main/screenshots/Shoppinglist.png?raw=true)
+![ShoppingList](https://github.com/tranfh/Angular-RecipeBook/blob/main/screenshots/Shoppinglist.png?raw=true)
